@@ -1,8 +1,10 @@
-let image = document.getElementById("image1");
+let image = document.getElementById('image1');
 
+//Ajout de bordures rouges au survol
 image.onmouseenter = function() {
-  image.style.border = "3px solid red";
+  image.style.border = '3px solid red';
 };
+//Suppression des bordures
 image.onmouseout = function() {
-  image.style.border = "0";
+  image.style.border = 'none';
 };
